@@ -2,6 +2,11 @@ import streamlit as st
 from diffusers import StableDiffusionPipeline
 import torch
 import os
+from diffusers import DiffusionPipeline
+pipe = DiffusionPipeline.from_pretrained(
+    "CompVis/stable-diffusion-v1-4",
+    torch_dtype=torch.float32
+)
 
 # Page setup
 st.set_page_config(page_title="AI Logo Generator", page_icon="🎨", layout="centered")
