@@ -3,5 +3,6 @@ torch
 torchvision
 accelerate
 transformers
+safetensors
+pillow
 streamlit
-
