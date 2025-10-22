@@ -1,12 +1,7 @@
-streamlit==1.39.0
-torch==2.3.0
-torchvision==0.18.1
+diffusers==0.29.0
+torch
+torchvision
+accelerate
+transformers
+streamlit
 
-diffusers==0.30.0
-transformers==4.44.0
-accelerate==0.33.0
-safetensors==0.4.4
-
-Pillow==10.1.0
-
-numpy==1.26.0
